@@ -18,6 +18,7 @@
 }
 
 .TableRowContainer .header {
+  color: #929292;
   position: inherit;
   font-family: Roboto;
   font-style: normal;

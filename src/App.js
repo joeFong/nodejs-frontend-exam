@@ -4,7 +4,7 @@ import './App.css';
 import Table from './Table/Table';
 
 function App() {
-  let tableObj = [
+  const tableObj = [
     { 
       id: 1,
       header: 'C-001',
@@ -13,29 +13,15 @@ function App() {
       children: [
         {
           id: 12,
-          header: 'C-001',
-          value: 'Intra Urban',
+          header: '2019/12/01',
+          value: 'Daily Report',
           check: false,
           children: [
             {
-              id: 13,
-              header: 'C-001',
-              value: 'Intra Urban',
-              check: true,
-              children: []
-            },
-            {
-              id: 23,
-              header: 'C-001',
-              value: 'Intra Urban',
-              check: true,
-              children: []
-            },
-            {
-              id: 33,
-              header: 'C-001',
-              value: 'Intra Urban',
-              check: true,
+              id: 121,
+              header: '',
+              value: 'HSE Safety Checklist',
+              check: false,
               children: []
             }
           ]   
@@ -44,17 +30,40 @@ function App() {
     },
     {
       id: 2,
-      header: 'C-001',
-      value: 'Intra Urban',
-      check: true,
-      children: []
+      header: 'C-002',
+      value: 'POCO Rec Center PH2',
+      check: false,
+      children: [
+        {
+          id: 21,
+          header: '2019/12/01',
+          value: 'Purchase Order',
+          check: false,
+          children: []
+        }
+      ]
     },
     {
       id: 3,
-      header: 'C-001',
-      value: 'Intra Urban',
-      check: true,
-      children: []
+      header: 'C-003',
+      value: 'Central City Brewery',
+      check: false,
+      children: [
+        {
+          id: 31,
+          header: '2019/12/01',
+          value: 'Purchase Order',
+          check: false,
+          children: []
+        },
+        {
+          id: 32,
+          header: '',
+          value: 'Reoccuring Items',
+          check: false,
+          children: []
+        }
+      ]
     }
   ];
   
