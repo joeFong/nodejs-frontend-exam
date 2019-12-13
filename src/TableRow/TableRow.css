@@ -1,0 +1,59 @@
+.TableRow {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 18px;
+}
+
+.TableRowContainer {
+  width: 576px;
+  height: 48px;
+  left: 32px;
+  top: 56px;
+  border-bottom: 1px solid #C0C0C0;
+  position: relative;
+}
+
+.TableRowContainer .header {
+  position: inherit;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  left: 8px;
+}
+
+.TableRowContainer .value {
+  position: absolute;
+  bottom: 9px;
+  left: 8px;
+}
+
+.TableRowContainer label input {
+  display: none; /* Hide the default checkbox */
+  left: 583px;
+  top: 71px;
+  position: absolute;
+}
+
+.TableRowContainer label span {
+  width: 16px;
+  height: 16px;
+  background-color: grey;
+  display: inline-block;
+  background: #EBEBEB;
+  border-radius: 4px;
+  position: absolute;
+  right: 7px;
+  top: 17px;
+}
+
+.TableRowContainer [type=checkbox]:checked + span {
+  background-color: #759BE6;
+  position: absolute;
+  border-radius: 4px;
+}

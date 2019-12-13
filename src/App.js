@@ -1,24 +1,66 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import Table from './Table/Table';
+
 function App() {
+  let tableObj = [
+    { 
+      id: 1,
+      header: 'C-001',
+      value: 'Intra Urban',
+      check: true,
+      children: [
+        {
+          id: 12,
+          header: 'C-001',
+          value: 'Intra Urban',
+          check: false,
+          children: [
+            {
+              id: 13,
+              header: 'C-001',
+              value: 'Intra Urban',
+              check: true,
+              children: []
+            },
+            {
+              id: 23,
+              header: 'C-001',
+              value: 'Intra Urban',
+              check: true,
+              children: []
+            },
+            {
+              id: 33,
+              header: 'C-001',
+              value: 'Intra Urban',
+              check: true,
+              children: []
+            }
+          ]   
+        }
+      ]
+    },
+    {
+      id: 2,
+      header: 'C-001',
+      value: 'Intra Urban',
+      check: true,
+      children: []
+    },
+    {
+      id: 3,
+      header: 'C-001',
+      value: 'Intra Urban',
+      check: true,
+      children: []
+    }
+  ];
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Table data={tableObj}></Table>
     </div>
   );
 }
