@@ -1,7 +1,7 @@
 # Node.js Frontend Exam / Table Component
 
 # Notes and Assumptions
-1. This assumes that the database/api, will return what is needed for each item and if a part(header, value, checked).
+1. This assumes that the database/api, will return what is needed(header, value, checked) for each item.
 2. I designed it this way so that the TableRow, Table is generic, reusable and not tied down to any business logic. 
 3. The ID for every item in my datastructure is assumed unique for the most optimized diffing/reconciliation.
 4. Clicking a checkbox returns its states and its child's states.
