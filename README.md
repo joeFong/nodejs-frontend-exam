@@ -1,12 +1,11 @@
 # Node.js Frontend Exam / Table Component
 
-## Notes and Assumptions
-1. In the table (it is really more like a list) the values of each item is not fixed to the scheme you have laid out. With C-001, C-002, ... C-00N. 
-2. This assumes that the database/api, will return what is needed for each item and if a part(header, value, checked) is missing then it is assumed the string is empty or the boolean is false. 
-3. I designed it this way so that the TableRow is generic, reusable and not tied down to any business logic. 
-4. The ID for every item in my datastructure is assumed unique for the most optimized diffing/reconciliation.
-5. Clicking a checkbox returns its states and its child states.
-6. This was a fun exam, thanks.  
+# Notes and Assumptions
+1. This assumes that the database/api, will return what is needed for each item and if a part(header, value, checked).
+2. I designed it this way so that the TableRow, Table is generic, reusable and not tied down to any business logic. 
+3. The ID for every item in my datastructure is assumed unique for the most optimized diffing/reconciliation.
+4. Clicking a checkbox returns its states and its child's states.
+5. This was a fun exam, thanks.  
 
 ## Goal
 Create a `table` component in React following provided design:

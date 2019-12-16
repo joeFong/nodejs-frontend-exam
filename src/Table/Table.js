@@ -8,7 +8,6 @@ function Table({data}) {
   return (
     <div className="Table">
       <ul>
-        {/* Recurse through table */}
         {data.map(item => {
           return (<li key={item.id}>
             <TableRow row={item}></TableRow>

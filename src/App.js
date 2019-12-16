@@ -12,13 +12,13 @@ function App() {
       check: true,
       children: [
         {
-          id: 12,
+          id: 2,
           header: '2019/12/01',
           value: 'Daily Report',
           check: false,
           children: [
             {
-              id: 121,
+              id: 3,
               header: '',
               value: 'HSE Safety Checklist',
               check: false,
@@ -29,13 +29,13 @@ function App() {
       ]
     },
     {
-      id: 2,
+      id: 4,
       header: 'C-002',
       value: 'POCO Rec Center PH2',
       check: false,
       children: [
         {
-          id: 21,
+          id: 5,
           header: '2019/12/01',
           value: 'Purchase Order',
           check: false,
@@ -44,20 +44,20 @@ function App() {
       ]
     },
     {
-      id: 3,
+      id: 6,
       header: 'C-003',
       value: 'Central City Brewery',
       check: false,
       children: [
         {
-          id: 31,
+          id: 7,
           header: '2019/12/01',
           value: 'Purchase Order',
           check: false,
           children: []
         },
         {
-          id: 32,
+          id: 8,
           header: '',
           value: 'Reoccuring Items',
           check: false,
