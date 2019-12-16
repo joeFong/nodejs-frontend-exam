@@ -4,10 +4,8 @@ import './Table.css';
 import TableRow from '../TableRow/TableRow';
 
 function Table({data}) {
-  
   return (
-    <div className="Table">
-      <ul>
+      <ul className="table-list">
         {data.map(item => {
           return (<li key={item.id}>
             <TableRow row={item}></TableRow>
@@ -15,7 +13,6 @@ function Table({data}) {
           </li>);
         })}
       </ul>
-    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-.TableRow {
+.table-row {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -8,7 +8,7 @@
   margin-top: 18px;
 }
 
-.TableRowContainer {
+.table-row-container {
   width: 576px;
   height: 48px;
   left: 32px;
@@ -17,31 +17,28 @@
   position: relative;
 }
 
-.TableRowContainer .header {
+.table-row-container .header {
   color: #929292;
   position: inherit;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 9px;
   line-height: 11px;
   left: 8px;
 }
 
-.TableRowContainer .value {
+.table-row-container .value {
   position: absolute;
   bottom: 9px;
   left: 8px;
 }
 
-.TableRowContainer label input {
+.table-row-container label input {
   display: none; /* Hide the default checkbox */
   left: 583px;
   top: 71px;
   position: absolute;
 }
 
-.TableRowContainer label span {
+.table-row-container label span {
   width: 16px;
   height: 16px;
   background-color: grey;
@@ -53,7 +50,7 @@
   top: 17px;
 }
 
-.TableRowContainer [type=checkbox]:checked + span {
+.table-row-container [type=checkbox]:checked + span {
   background-color: #759BE6;
   position: absolute;
   border-radius: 4px;

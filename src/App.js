@@ -68,9 +68,7 @@ function App() {
   ];
   
   return (
-    <div className="App">
-      <Table data={tableObj}></Table>
-    </div>
+    <Table data={tableObj}></Table>
   );
 }
 

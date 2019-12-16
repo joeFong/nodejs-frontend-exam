@@ -14,7 +14,7 @@ function TableRow(props) {
   }
 
   return (
-    <div className="TableRow TableRowContainer">
+    <div className="table-row table-row-container">
       <div className="row">
         <div className="header">{header}</div>
         <div className="value">{value}</div>
